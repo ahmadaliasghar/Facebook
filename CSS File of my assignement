@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+}
+.headerLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerLeft img{
+    width: 80px;
+
+}
+.headerInput{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+.headerInput input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0px;
+}
+.headerMiddle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.headerOptions{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+.headerOptions .material-icons{
+    font-size: xx-large;
+    color: grey;
+}
+.headerOptions:hover .material-icons{
+    color: #2e81f4;
+}
+.headerOptions:active .material-icons{
+    color: #2e81f4;
+}
+.headerOptions:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0px 30px;
+    border-bottom: none;
+}
+.headerOptions:active{
+    border-bottom: 4px solid #2e81f4;
+}
+.profile{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.headerRight{
+    display: flex;
+    align-items: center;
+}
+.headerRight h3{
+    margin-left: 10px;
+
+}
+.headerRight .material-icons{
+    color: grey;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+/* Header Ends */
+.sideBarIcon{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.sideBarIcon:Hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.sideBarIcon h3{
+    margin-left: 20px;
+    font-weight: 600;
+}
+.sideBarIcon .material-icons{
+    font-size: xx-large;
+    color: #2e81f4;
+}
+.story{
+    background-image: url(26-03-forest-916-no-logo.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 200px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+.story:hover{
+    transform: scale(1.07);
+}
+.story h3{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+.storyReel{
+    padding: 10px 0px;
+    display: flex;
+}
+.mainBody{
+    display: flex;
+}
+.profileAvater{
+    border: 4px solid #2e81f4;
+
+}
+.post{
+    width: 100%;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+.postImage img{
+    width: 100%;
+}
+.postTop{
+    display: flex;
+    position: relative;
+ align-items: center;   
+ padding: 15px;
+}
+.postTopInfo h3{
+    margin-left: 10px;
+}
+.postTopInfo p{
+    margin-left: 10px;
+}
+.postOptions{
+display: flex;
+justify-content: space-between;
+margin: 10px;
+}
