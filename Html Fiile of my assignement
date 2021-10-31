@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Facebook</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="headerLeft">
+            <img src="Facebook-logo.png" alt="">
+            <div class="headerInput">
+                <span class="material-icons">
+                    search
+                </span>
+                <input type="text" placeholder="Search Facebook">
+            </div>
+        </div>
+        <div class="headerMiddle">
+            <div class="headerOptions">
+                <span class="material-icons">
+                    home
+                </span>
+            </div>
+            <div class="headerOptions">
+                <span class="material-icons">
+                    flag
+                </span>
+            </div>
+            <div class="headerOptions">
+                <span class="material-icons">
+                    storefront
+                </span>
+            </div>
+            <div class="headerOptions">
+                <span class="material-icons">
+                    groups
+                </span>
+            </div>
+
+        </div>
+        <div class="headerRight">
+            <img class="profile" src="photo-1511" alt="">
+            <h3>AhmadAli</h3>
+            <span class="material-icons">
+                forum
+            </span>
+            <span class="material-icons">
+                notifications_none
+            </span>
+        </div>
+    </div>
+    <!-- Header Ends -->
+    <div class="mainBody">
+        <div class="sideBar">
+            <img class="profilephoto-1511" alt="">
+            <h3>Ahmad Ali</h3>
+            <div class="sideBarIcon">
+                <span class="material-icons">
+                    group
+                </span>
+                <h3>People</h3>
+            </div>
+            <div class="sideBarIcon">
+                <span class="material-icons">
+                    pages
+                </span>
+                <h3>Pages</h3>
+            </div>
+            <div class="sideBarIcon">
+                <span class="material-icons">
+                    medication
+                </span>
+                <h3>COVID-19 Information</h3>
+            </div>
+            <div class="sideBarIcon">
+                <span class="material-icons">
+                    group
+                </span>
+                <h3>People</h3>
+            </div>
+            <div class="sideBarIcon">
+                <span class="material-icons">
+                    pages
+                </span>
+                <h3>Pages</h3>
+            </div>
+            <div class="sideBarIcon">
+                <span class="material-icons">
+                    medication
+                </span>
+                <h3>COVID-19 Information</h3>
+            </div>
+
+        </div>
+        <div class="mainContent">
+
+            <!-- Stories -->
+            <div class="feed">
+                <div class="storyReel">
+                    <div class="story">
+                        <img class="profile profileAvater" src="photo-1511" alt="">
+                        <h3>Ahmad Ali</h3>
+                    </div>
+                    <div class="story">
+                        <img class="profile profileAvater" src="photo-1511" alt="">
+                        <h3>Ahmad Ali</h3>
+                    </div>
+                    <div class="story">
+                        <img class="profile profileAvater" src="photo-1511" alt="">
+                        <h3>Ahmad Ali</h3>
+                    </div>
+                    <div class="story">
+                        <img class="profile profileAvater" src="photo-1511" alt="">
+                        <h3>Ahmad Ali</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+
+                <div class="postTop">
+                    <img src="photo-1511" class="profile" alt="">
+                    <div class="postTopInfo">
+                        <h3>Ahmad Ali</h3>
+                        <p>26-Oct-2021 at 11:35Am</p>
+                    </div>
+                </div>
+                <div class="postImage">
+                    <img src="Ahmad-Shah-Abdali.jpg" alt="">
+                </div>
+                <div class="postOptions">
+                    <div>
+                        <span class="material-icons">
+                            thumb_up
+                        </span><span>Like</span>
+                    </div>
+                    <div>
+
+                        <span class="material-icons">
+                            chat
+                        </span><span>Comment</span>
+                    </div>
+                    <div>
+
+                        <span class="material-icons">
+                            near_me
+                        </span><span>Share</span>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
