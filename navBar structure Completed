@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Facebook</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="headerLeft">
+            <img src="images/Facebook-logo.png" alt="">
+            <div class="headerInput">
+                <span class="material-icons">
+                    search
+                </span>
+                <input type="text" placeholder="Search Facebook">
+            </div>
+        </div>
+        <div class="headerMiddle">
+            <div class="headerOptions">
+                <span class="material-icons">
+                    home
+                </span>
+            </div>
+            <div class="headerOptions">
+                <span class="material-icons">
+                    flag
+                </span>
+            </div>
+            <div class="headerOptions">
+                <span class="material-icons">
+                    storefront
+                </span>
+            </div>
+            <div class="headerOptions">
+                <span class="material-icons">
+                    groups
+                </span>
+            </div>
+
+        </div>
+        <div class="headerRight">
+            <img class="profile" src="images/abc.jpg.JPG" alt="">
+            <h3>Abu Hurairah</h3>
+            <span class="material-icons">
+                forum
+            </span>
+            <span class="material-icons">
+                notifications_none
+            </span>
+        </div>
+    </div>
+    <!-- Header Ends -->
+   
+</body>
+
+</html>
